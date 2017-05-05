@@ -1,0 +1,31 @@
+
+body{
+	background: #f5f5f5;
+}
+
+.form-group{
+	margin-bottom: 0 5em;
+}
+
+/*VERTICAL*/
+
+.form-group label {
+     display: block;
+     }
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+	color: #ddd;
+}
+
+.form-group input:valid,
+.form-group textarea:valid{
+	border: 2px solid green;
+}
+
+/* CAMPO INVALIDO
+.form-group input:invalid,
+.form-group textarea:invalid;{
+	border: 2px solid red;
+}
+*/

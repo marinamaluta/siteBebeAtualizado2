@@ -1,0 +1,506 @@
+
+/*http://fontawesome.io/icons/ - Site do icone*/
+/* colocar a tag primeiro e depois as class*/
+
+body {
+	background-color: #FBF4FF;
+	margin: 0;
+	max-width: 100%;
+	font-family: helvetica;
+}
+
+input{
+	margin-left: 35px;
+	margin-bottom: 10px;
+}
+
+
+footer{
+	color: #F4F4F4;
+	background: hsla(0, 100%, 30%, 0.5);
+	margin: 0 auto;
+	width: 1024px;
+} 
+
+
+
+/* //////////IDS E CLASSES - INICIO DO HEADER/////////// */
+
+#login{
+	background-color: hsla(0, 100%, 30%, 1); 
+	color: white;
+}
+
+#cadastro{
+	color: hsla(0, 100%, 30%, 1);
+}
+
+#comprar{
+	background-color: black; 
+	color: white;
+}
+
+.inicio{
+	color: #F4F4F4;
+	background:hsla(0, 100%, 30%, 0.5);
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	height: 60px;
+	align-items: center;
+	max-width: 1024px;
+}
+
+.mundodosbebes{
+	font-size: 30px;
+	color: white;
+}
+
+.home ul{
+	list-style: none;
+	padding-left: 20px; 
+}
+
+
+.menu{
+	justify-content: center;
+	display: flex;
+	margin: auto;
+}
+
+.menu ul{
+	list-style: none;
+	display: flex;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 10px 5px;
+	color: hsla(0, 100%, 30%, 1);
+}
+
+
+.principal{
+	display: flex;
+	width: 1024px;
+	margin: auto;
+}
+.conteudo{
+	display: block;
+	margin:auto;
+	background: url(../images/bebes.jpg) center bottom; 
+	width: 1024px;
+	background-size: cover;
+	text-align : justify;
+
+}
+.buttonNovidades{
+	position: relative;
+	top:-150px;
+	justify-content: space-around;
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	border-radius: 20px;
+	color: hsla(0, 100%, 30%, 1);
+
+}
+
+.vertodos1{
+	margin-left: 100px;
+	border-radius: 20px;
+	color: hsla(0, 100%, 30%, 1);
+	font-height: bold;
+}
+
+.vertodos2{
+	margin-right: 50px;
+	border-radius: 20px;
+	color: hsla(0, 100%, 30%, 1);
+	font-height: bold;
+}
+
+.fotologo img{
+	display: block;
+	width: 120px;
+	margin: auto;
+	opacity: 0.8;
+	border-radius: 100px;
+}
+.lema{
+	display: flex;
+	justify-content: center;
+	color: hsla(0, 100%, 30%, 1);
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.box{
+	background: hsla(0, 100%, 90%, 0.3);
+	width: 700px;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.cabecalho {
+	width: 700px;	
+	display: flex;
+	color: hsla(0, 100%, 30%, 0.8);
+}
+
+.cabecalho img{
+	width:40px;
+	height: 40px;
+}
+
+.fotobox{
+	display: flex;
+	justify-content: center;
+	margin: 20px 20px;
+}
+.fotobox img{
+	width:250px;
+	height: 200px;
+	object-fit: cover; 
+	margin-left: 20px;
+}
+
+.inputs{
+	display: flex;
+	justify-content: center;
+	margin-left: 30px;
+	padding: none;
+}
+
+.desejo.botao.padrao.ativo{
+
+	background: hsla(0, 100%, 30%, 0.8);
+}
+
+
+.preto{
+	margin: 0 20px;
+}
+
+.paginaSite ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	
+}
+
+.bordaPagina{
+	color: hsla(0, 100%, 30%, 0.8);
+	text-decoration: none;
+    padding: 0 10px;
+}
+
+.numeracao{
+	border-right: solid 1px hsla(0, 100%, 30%, 0.8);
+	
+}
+
+
+
+
+/*  //////ASIDE////////// */
+
+
+
+
+
+.corpoDireitoDoSite{
+	width: 250px;
+}
+
+.boxAside{
+	border: 1px solid hsla(0, 100%, 30%, 0.8); 
+	margin-left: 20px;
+	margin-bottom: 20px;
+	justify-content:left;
+}
+
+.meucarrinho{
+	color: hsla(0, 100%, 30%, 0.8);
+}
+.suaconta{
+	margin-left: 20px;
+}
+
+.titulo1 p{
+	color:hsla(0, 100%, 30%, 0.8);
+}
+
+
+.titulo1 p{
+	border: 1px solid hsla(0, 100%, 30%, 1);
+	background: hsla(0, 100%, 30%, 0.5);
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.naveItens{
+	justify-content: left;
+}
+
+.naveItens ul{
+	list-style: none;
+}
+
+.naveItens ul li a{
+	text-decoration: none;
+	color: black;
+	
+}
+.newsletter{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+} 
+
+.email{
+	padding-left: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	justify-content: center;
+}
+
+
+.assine{
+	margin-left: 90px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border-color: 1px solid hsla(0, 100%, 30%, 0.8);
+	color: hsla(0, 100%, 30%, 1);
+}
+
+.mensagem{
+	display: none;
+	background-color: green;
+	color: white;
+	padding: 14px;
+
+}
+
+.mensagem.ativo{
+	display: block;
+}
+
+/* ////////TÉRMINO ASIDE///////*/
+
+
+
+
+/* ////////INICIO FOOTER/////// */
+
+.rodape{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	text-decoration: none;
+}
+
+#copyright{
+	justify-content: center;
+	margin-left: 120px;
+}
+
+#card{
+	margin-left: 200px;
+} 
+
+#facebook{
+	margin-right: 10px;
+}
+
+/* //////////ESTILO DO BOTAO!/////////*/
+
+
+
+.botao{
+	/*altura do conteudo*/
+	height: 20px;
+	/*Altura da linha*/
+	line-height: 20px;
+	/*Arredondar*/
+	border-radius: 20px;
+	/*Tirar a borda*/
+	border: none;
+	/*Cor do texto*/
+	padding: 0px 20px;
+	cursor: pointer;
+	width: 100px;
+}
+
+.botao.padrao{
+	color: hsla(0, 100%, 30%, 1);
+}
+.botao.preto{
+	background: black;
+	color: white;
+}
+
+/* ///////FIM DO ESTILO DO BOTAO! //////////*
+/* ///////      FIM DO FOOTER!    //////////*
+
+
+
+/* ///////////// @MEDIA ////////////*/
+
+/*CONDIÇÃO @media(condição) ex:quando ficar menor que 500px, faça o seguinte instruções*/
+
+
+/* ////Botão sanduiche//// */
+.sanduiche{
+	flex-direction: column;
+	justify-content: space-between;
+	width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    border: none; /*para tirar a borda*/
+   /* display: flex */
+    display: none; /* por padrão, o display não aparece */
+}
+
+.sanduiche span{
+	display: block; /*o display é inline por padrão*/
+	height: 4px;
+	width: 28px;
+	background: white;
+	margin: 5px 0px;
+}
+
+.personIcon{
+	color: white;
+	display: none;
+}
+
+.sidebar {
+	width: 300px;
+	background-color: grey;
+	border:solid 2px red;
+	display: flex;
+	padding-left: 20px;
+	margin: 0px;
+	position: fixed;
+	width: 300px;
+	height: 100vh; /*VH = viewport height 100% da altura do meu viewport*/
+	z-index: 10; /*SÓ NÃO FUNCIONA COM POSITION STATIC*/
+	transition: all 1s ease; /*ALL significa que todas as características da sidebar recebrão igualmente a animação*/
+}
+
+.sidebar ul {
+	list-style: none;
+}
+
+.sidebar li {
+	border-bottom: black 1px solid;
+}
+
+.sidebar a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px;
+	color: black;
+}
+
+.sidebar-left {
+	top: 0px;
+	left: -330px;
+}
+
+.sidebar-left.active {
+	left: 0px;
+}
+
+.fechar.sidebar-left a{
+	background-color: green;
+	border:solid 2px red;
+	display: flex;
+}
+
+.sidebar-right{
+	top: 0px;
+	right: -330px;
+}
+
+.sidebar-right.active {
+	right: 0px;
+}
+
+.fechar.sidebar-right a{
+	background-color: green;
+	border:solid 2px red;
+	display: flex;
+}
+
+/* /////FIM DO Botão sanduiche///// */
+@media (max-width: 500px){
+	.sanduiche{
+		display: flex;
+	}
+
+	.personIcon{
+		display: flex;
+	}
+
+	.buttons{
+		display: none;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.sidebar{
+		display: flex;
+	}
+}
+
+
+/*FIM DO @MEDIA */
+
+
+/* INICIO CSS DO ARQUIVO CONTATO */
+
+
+body{
+	background: #f5f5f5;
+}
+
+.form-group{
+	margin-bottom: 0 5em;
+	
+}
+
+/*VERTICAL*/
+
+.form-group label{
+     display: flex;
+     flex-direction: column;
+     font-family: arial;
+ }
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+	color: #ddd;
+	
+}
+
+.form-group input:valid,
+.form-group textarea:valid{
+	border: 2px solid green;
+	
+}
+
+.enviarSubmit{
+border-radius: 20%;
+border-color: red;
+background-color: white;
+color: red;
+width: 5%
+}
+
+
+/* FIM CSS DO ARQUIVO CONTATO */

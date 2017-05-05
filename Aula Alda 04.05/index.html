@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo/style.css">
+</head>
+<body>
+
+	<h1>Olar!</h1>
+
+	<form action="">
+		<div class="form-group">
+			<label for = "nome">Nome</label>
+			<input type="text" name="nome" required="" placeholder="Seu nome completo">
+		</div>
+
+		<div class="form-group">
+			<label for="email">E-mail</label>
+			<input type="email" name="email" required="" placeholder="eu@site.com">
+		</div>
+
+		<div class="form-group">
+			<label for="mensagem">Mensagem</label>
+			<textarea name="mensagem" cols="50" rows="4" maxlength="100" required="" data-contador-fonte placeholder="Seu textão, em até 100 caracteres"></textarea>
+			<span data-contador-destino>100</span>
+		</div>
+	
+		<input type="submit" value="Enviar">
+	</form>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
